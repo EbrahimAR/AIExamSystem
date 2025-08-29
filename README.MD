@@ -52,10 +52,9 @@ The system dynamically generates questions using **Google Gemini AI**, stores th
 
 ### **1. Clone the Repository**
 
-  ```bash
-  git clone https://github.com/yourusername/AI-Exam-System.git
-  cd AI-Exam-System
-  bash
+git clone https://github.com/yourusername/AI-Exam-System.git
+cd AI-Exam-System
+
 
 ---
 
