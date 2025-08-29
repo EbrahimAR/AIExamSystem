@@ -46,7 +46,6 @@ The system dynamically generates questions using **Google Gemini AI**, stores th
     ├── LICENSE
     └── .gitignore
 
-
 ---
 
 ## ⚙️ Installation
