@@ -80,7 +80,7 @@ python question_generator.py "Java" "Beginner"
 This will save questions in data/questions_dataset.json.
 
 ### **3. Set Up Java Frontend**
-Open java-frontend/AIExamSystem.java in IntelliJ, Eclipse, or NetBeans.
+Open **java-frontend/AIExamSystem.java** in IntelliJ, Eclipse, or NetBeans.
 
 Add Gson library:
 
@@ -95,13 +95,13 @@ Compile and run the Java file.
 ---
 
 ## ▶️ Usage
-- Generate questions using the Python script.
+1. Generate questions using the Python script.
 
-- Launch the Java GUI application.
+2. Launch the Java GUI application.
 
-- Answer all questions displayed in the GUI.
+3. Answer all questions displayed in the GUI.
 
-- Submit answers to see your final score.
+4. Submit answers to see your final score.
 
 ---
 
@@ -125,11 +125,11 @@ Compile and run the Java file.
 ---
 
 ## 👨‍💻 Author
-Your Name
+Ebrahim Abdul Raoof
 
-LinkedIn
+[LinkedIn](https://www.linkedin.com/in/ebrahim-ar/)
 
-GitHub
+[GitHub](https://github.com/EbrahimAR)
 
 ---
 
