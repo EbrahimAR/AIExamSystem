@@ -1,0 +1,125 @@
+# AI-Based Online Exam System
+
+An **AI-driven online exam platform** built with **Java (Swing)** and **Python (backend)**.  
+The system dynamically generates questions using **Google Gemini AI**, stores them in JSON format, and provides a **Java Swing GUI** for students to take the exam.
+
+---
+
+## ✅ Features
+- **AI Question Generation**: Uses Google Gemini to create unique MCQs.
+- **JSON Question Storage**: Questions saved in `data/questions_dataset.json`.
+- **Java Swing GUI**: User-friendly interface for taking exams.
+- **Scoring System**: Automatically checks answers and displays the final score.
+- **Expandable**: Future integration with **proctoring** and **voice-based answers**.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend**: Java (Swing)
+- **Backend**: Python 3
+- **AI Model**: Google Gemini API
+- **Data**: JSON
+- **Libraries**:
+  - **Java**: [Gson](https://github.com/google/gson) (for JSON parsing)
+  - **Python**: `google-generativeai`
+
+---
+
+## 📂 Project Structure
+AI-Exam-System/
+│
+├── java-frontend/
+│ ├── AIExamSystem.java # Main Java GUI code
+│ ├── lib/gson-2.10.jar # JSON parsing library
+│
+├── python-backend/
+│ ├── question_generator.py # Python script for question generation
+│ ├── requirements.txt # Python dependencies
+│
+├── data/
+│ ├── questions_dataset.json # Generated question set
+│
+├── docs/
+│ ├── screenshots/ # Screenshots for documentation
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Installation
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/yourusername/AI-Exam-System.git
+cd AI-Exam-System
+2. Set Up Python Backend
+Install dependencies:
+
+bash
+Copy code
+cd python-backend
+pip install -r requirements.txt
+Create an environment variable for the Gemini API key:
+
+bash
+Copy code
+export GEMINI_API_KEY="your_api_key"
+Generate questions:
+
+bash
+Copy code
+python question_generator.py "Java" "Beginner"
+This will save questions in data/questions_dataset.json.
+
+3. Set Up Java Frontend
+Open java-frontend/AIExamSystem.java in IntelliJ, Eclipse, or NetBeans.
+
+Add Gson library:
+
+Download gson-2.10.jar
+
+Place it in java-frontend/lib/
+
+Add it to the project classpath.
+
+Compile and run the Java file.
+
+▶️ Usage
+Generate questions using the Python script.
+
+Launch the Java GUI application.
+
+Answer all questions displayed in the GUI.
+
+Submit answers to see your final score.
+
+📸 Screenshots
+(Add screenshots in docs/screenshots/ and update paths below)
+
+Main Dashboard
+
+Exam Window
+
+🔗 Future Enhancements
+Facial Recognition Proctoring using OpenCV.
+
+Speech Recognition for voice-based answers.
+
+FastAPI Integration for real-time question generation.
+
+JWT Authentication for secure user management.
+
+👨‍💻 Author
+Your Name
+
+LinkedIn
+
+GitHub
+
+📜 License
+This project is licensed under the MIT License. See LICENSE for details.

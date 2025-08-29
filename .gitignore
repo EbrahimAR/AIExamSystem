@@ -1,0 +1,14 @@
+# Java
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# API Keys / Config
+.env
