@@ -56,6 +56,8 @@ The system dynamically generates questions using **Google Gemini AI**, stores th
   git clone https://github.com/yourusername/AI-Exam-System.git
   cd AI-Exam-System
 
+---
+
 ### **2. Set Up Python Backend**
 Install dependencies:
 
@@ -76,43 +78,52 @@ Copy code
 python question_generator.py "Java" "Beginner"
 This will save questions in data/questions_dataset.json.
 
+---
+
 ### **3. Set Up Java Frontend**
 Open java-frontend/AIExamSystem.java in IntelliJ, Eclipse, or NetBeans.
 
 Add Gson library:
 
-Download gson-2.10.jar
+- **Download gson-2.10.jar
 
-Place it in java-frontend/lib/
+- **Place it in java-frontend/lib/
 
-Add it to the project classpath.
+- **Add it to the project classpath.
 
 Compile and run the Java file.
 
+---
+
 ▶️ Usage
-Generate questions using the Python script.
+- **Generate questions using the Python script.
 
-Launch the Java GUI application.
+- **Launch the Java GUI application.
 
-Answer all questions displayed in the GUI.
+- **Answer all questions displayed in the GUI.
 
-Submit answers to see your final score.
+- **Submit answers to see your final score.
+
+---
 
 📸 Screenshots
-(Add screenshots in docs/screenshots/ and update paths below)
 
-Main Dashboard
+- **Main Dashboard
 
-Exam Window
+- **Exam Window
+
+---
 
 🔗 Future Enhancements
-Facial Recognition Proctoring using OpenCV.
+- **Facial Recognition Proctoring using OpenCV.
 
-Speech Recognition for voice-based answers.
+- **Speech Recognition for voice-based answers.
 
-FastAPI Integration for real-time question generation.
+- **FastAPI Integration for real-time question generation.
 
-JWT Authentication for secure user management.
+- **JWT Authentication for secure user management.
+
+---
 
 👨‍💻 Author
 Your Name
@@ -120,6 +131,8 @@ Your Name
 LinkedIn
 
 GitHub
+
+---
 
 📜 License
 This project is licensed under the MIT License. See LICENSE for details.
