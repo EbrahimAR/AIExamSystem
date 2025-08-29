@@ -53,27 +53,27 @@ The system dynamically generates questions using **Google Gemini AI**, stores th
 
 ### **1. Clone the Repository**
   ```bash
-  git clone https://github.com/yourusername/AI-Exam-System.git
-  cd AI-Exam-System
+git clone https://github.com/yourusername/AI-Exam-System.git
+cd AI-Exam-System
 
 ---
 
 ### **2. Set Up Python Backend**
 Install dependencies:
 
-```bash
+bash
 Copy code
 cd python-backend
 pip install -r requirements.txt
 
 Create an environment variable for the Gemini API key:
 
-```bash
+bash
 Copy code
 export GEMINI_API_KEY="your_api_key"
 Generate questions:
 
-```bash
+bash
 Copy code
 python question_generator.py "Java" "Beginner"
 This will save questions in data/questions_dataset.json.
