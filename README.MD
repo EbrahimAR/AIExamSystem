@@ -96,7 +96,7 @@ Compile and run the Java file.
 
 ---
 
-▶️ Usage
+## ▶️ Usage
 - **Generate questions using the Python script.
 
 - **Launch the Java GUI application.
@@ -107,7 +107,7 @@ Compile and run the Java file.
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 
 - **Main Dashboard
 
@@ -115,7 +115,7 @@ Compile and run the Java file.
 
 ---
 
-🔗 Future Enhancements
+## 🔗 Future Enhancements
 - **Facial Recognition Proctoring using OpenCV.
 
 - **Speech Recognition for voice-based answers.
@@ -126,7 +126,7 @@ Compile and run the Java file.
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 Your Name
 
 LinkedIn
@@ -135,5 +135,5 @@ GitHub
 
 ---
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License. See LICENSE for details.
