@@ -26,28 +26,26 @@ The system dynamically generates questions using **Google Gemini AI**, stores th
 ---
 
 ## 📂 Project Structure
-AI-Exam-System/
-│
-├── java-frontend/
-│ ├── AIExamSystem.java # Main Java GUI code
-│ ├── lib/gson-2.10.jar # JSON parsing library
-│
-├── python-backend/
-│ ├── question_generator.py # Python script for question generation
-│ ├── requirements.txt # Python dependencies
-│
-├── data/
-│ ├── questions_dataset.json # Generated question set
-│
-├── docs/
-│ ├── screenshots/ # Screenshots for documentation
-│
-├── README.md
-├── LICENSE
-└── .gitignore
+    AI-Exam-System/
+    │
+    ├── java-frontend/
+    │ ├── AIExamSystem.java # Main Java GUI code
+    │ ├── lib/gson-2.10.jar # JSON parsing library
+    │
+    ├── python-backend/
+    │ ├── question_generator.py # Python script for question generation
+    │ ├── requirements.txt # Python dependencies
+    │
+    ├── data/
+    │ ├── questions_dataset.json # Generated question set
+    │
+    ├── docs/
+    │ ├── screenshots/ # Screenshots for documentation
+    │
+    ├── README.md
+    ├── LICENSE
+    └── .gitignore
 
-yaml
-Copy code
 
 ---
 
@@ -57,26 +55,28 @@ Copy code
 ```bash
 git clone https://github.com/yourusername/AI-Exam-System.git
 cd AI-Exam-System
-2. Set Up Python Backend
+
+### **2. Set Up Python Backend**
 Install dependencies:
 
-bash
+```bash
 Copy code
 cd python-backend
 pip install -r requirements.txt
+
 Create an environment variable for the Gemini API key:
 
-bash
+```bash
 Copy code
 export GEMINI_API_KEY="your_api_key"
 Generate questions:
 
-bash
+```bash
 Copy code
 python question_generator.py "Java" "Beginner"
 This will save questions in data/questions_dataset.json.
 
-3. Set Up Java Frontend
+### **3. Set Up Java Frontend**
 Open java-frontend/AIExamSystem.java in IntelliJ, Eclipse, or NetBeans.
 
 Add Gson library:
