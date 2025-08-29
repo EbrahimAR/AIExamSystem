@@ -56,9 +56,11 @@ The system dynamically generates questions using **Google Gemini AI**, stores th
 git clone https://github.com/yourusername/AI-Exam-System.git
 cd AI-Exam-System
 bash
+
 ---
 
 ### **2. Set Up Python Backend**
+
 Install dependencies:
 
 bash
