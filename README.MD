@@ -105,14 +105,6 @@ Compile and run the Java file.
 
 ---
 
-## 📸 Screenshots
-
-- Main Dashboard
-
-- Exam Window
-
----
-
 ## 🔗 Future Enhancements
 - Facial Recognition Proctoring using OpenCV.
 
