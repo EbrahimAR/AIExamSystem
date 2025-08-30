@@ -21,7 +21,7 @@ import com.google.gson.reflect.TypeToken;
  * - Displays questions and options in a Swing interface.
  * - Handles user input and answer selection.
  *
- * Author: Your Name
+ * Author: Ebrahim Abdul Raoof
  */
 
 public class AIExamSystem extends JFrame {
