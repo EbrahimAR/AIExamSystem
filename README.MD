@@ -81,9 +81,9 @@ Open **java-frontend/AIExamSystem.java** in IntelliJ, Eclipse, or NetBeans.
 
 Add Gson library:
 
-1. Download gson-2.10.jar
+1. Download `gson-2.10.jar`
 
-2. Place it in java-frontend/lib/
+2. Place it in `java-frontend/lib/`
 
 3. Add it to the project classpath.
 
