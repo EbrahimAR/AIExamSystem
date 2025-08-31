@@ -39,7 +39,7 @@ The system dynamically generates questions using **Google Gemini AI**, stores th
     ├── data/
     │ ├── questions_dataset.json # Generated question set
     │
-    ├── README.md
+    ├── README.md # Project documentation
     ├── LICENSE
     └── .gitignore
 
